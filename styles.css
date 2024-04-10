@@ -1,1 +1,26 @@
+/* CSS styles for all viewport sizes */
+
+/* Media query for viewport widths up to 768 pixels */
+@media (max-width: 768px) {
+  /* CSS styles specific to viewport widths up to 768px */
+  /* For example, you can adjust font size */
+  body {
+    font-size: 14px;
+  }
+
+  /* You can add more styles for smaller screens here */
+}
+
+/* Media query for viewport widths between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles specific to viewport widths between 769px and 1024px */
+  /* For example, you can adjust font size */
+  body {
+    font-size: 16px;
+  }
+
+  /* You can add more styles for medium screens here */
+}
+
+/* You can add more media queries for larger screens if needed */
 
